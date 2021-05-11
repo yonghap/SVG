@@ -8,7 +8,7 @@ SVG의 좌표는 웹 개발에서 많이 사용하는 좌표계를 사용합니�
 <br><br>
 
 ## default
-```
+```html
 <svg version="1.1"
      baseProfile="full"
      width="300" height="200"
