@@ -36,7 +36,7 @@ SVG의 좌표는 웹 개발에서 많이 사용하는 좌표계를 사용합니�
 
 ![grid](https://developer.mozilla.org/@api/deki/files/78/=Canvas_default_grid.png)
 
-<sub><sup>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Positions </sup></sub>
+<sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Positions </sub>
 
 
 0,0의 위치에서 100x100 크기의 사각형을 그립니다.

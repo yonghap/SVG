@@ -26,31 +26,33 @@ SVG의 기본 도형입니다.
 ```
 ![shape](https://developer.mozilla.org/@api/deki/files/359/=Shapes.png)
 
+<sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Basic_Shapes </sub>
+
 <br><br>
 ## Rect
 
-> **x** : 사각형 좌측 상단의 x값
-> **y** : 사각형 좌측 상단의 y값
-> **width** : 사각형 넓이
-> **height** : 사각형 높이
-> **rx** : x 방향 모서리의 반지름
-> **ry** : y 방향 모서리의 반지름
+> **x** : 사각형 좌측 상단의 x값 <br>
+> **y** : 사각형 좌측 상단의 y값 <br>
+> **width** : 사각형 넓이 <br>
+> **height** : 사각형 높이 <br>
+> **rx** : x 방향 모서리의 반지름 <br>
+> **ry** : y 방향 모서리의 반지름 <br>
 
 <br><br>
 ## Circle
 
-> **rx** : x 방향 반지름의 길이
-> **ry** : y 방향 반지름의 길이
-> **cx** : 원의 중심 x값
-> **cy** : 원의 중심 y값
+> **rx** : x 방향 반지름의 길이 <br>
+> **ry** : y 방향 반지름의 길이 <br>
+> **cx** : 원의 중심 x값 <br>
+> **cy** : 원의 중심 y값 <br>
 
 <br><br>
 ## Line
 
-> **x1** : 점 1의 x값
-> **y1** : 점 1의 y값
-> **x2** : 점 2의 x값
-> **y2** : 점 2의 y값
+> **x1** : 점 1의 x값 <br>
+> **y1** : 점 1의 y값 <br>
+> **x2** : 점 2의 x값 <br>
+> **y2** : 점 2의 y값 <br>
 
 <br><br>
 ## Polyline
@@ -69,5 +71,5 @@ Polygon은 처음 좌표와 마지막 좌표를 이어 도형을 만듭니다.
 <br><br>
 ## Path
 
-Path는 SVG에서 사용하는 가장 일반적인 속성이며 Polygon처럼 단일 속성으로 표시합니다.
+Path는 SVG에서 사용하는 가장 일반적인 속성이며 Polygon처럼 단일 속성으로 표시합니다. <br>
 여러가지 복잡한 도형을 그릴 수 있습니다.
