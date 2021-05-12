@@ -8,3 +8,4 @@ SVG 학습내용을 정리합니다. <br>
 ## :fire: SVG Tutorial
 
 1.[Grid](https://github.com/yonghap/SVG/blob/main/posts/grid.md)
+2.[Shape](https://github.com/yonghap/SVG/blob/main/posts/shape.md)
