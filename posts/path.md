@@ -45,6 +45,9 @@ Z(Close Path) 명령어로 패스를 닫습니다.<br>
 ```html
 <path d="M10 10 h 80 v 80 h -80 Z" fill="transparent" stroke="black"/>
 ```
+
+![path](https://developer.mozilla.org/@api/deki/files/292/=Path_Line_Commands.png)
+
 <br><br>
 
 ### 곡선
@@ -54,7 +57,7 @@ SVG의 곡선 명령어에는 3가지가 있습니다.<br>
 3차 베지어 곡선은 두 개의 제어 좌표와 하나의 끝점을 가집니다.<br>
 C(Cubic) 영령어를 사용합니다.
 
-> **C x1 y1, x2 y2, x y** : 제어 좌표1, 제어 좌표1, 곡선이 끝
+> **C x1 y1, x2 y2, x y** : 제어 좌표1, 제어 좌표1, 곡선의 끝 좌
 
 ```html
 <svg width="190" height="160" xmlns="http://www.w3.org/2000/svg">
@@ -62,7 +65,7 @@ C(Cubic) 영령어를 사용합니다.
     <path d="M70 10 C 70 20, 120 20, 120 10" stroke="black" fill="transparent"/>
     <path d="M130 10 C 120 20, 180 20, 170 10" stroke="black" fill="transparent"/>
     <path d="M10 60 C 20 80, 40 80, 50 60" stroke="black" fill="transparent"/>
-    <path d="M70 60 C 70 80, 110 80, 110 60" stroke="black" fill="transparent"/>
+    <path d="M70 60 C 70 80, 110 80, 110 60" stroke="black" fill="transp표arent"/>
     <path d="M130 60 C 120 80, 180 80, 170 60" stroke="black" fill="transparent"/>
     <path d="M10 110 C 20 140, 40 140, 50 110" stroke="black" fill="transparent"/>
     <path d="M70 110 C 70 140, 110 140, 110 110" stroke="black" fill="transparent"/>
@@ -73,3 +76,5 @@ C(Cubic) 영령어를 사용합니다.
 아래와 같은 결과가 나옵니다.
 
 ![path](https://mdn.mozillademos.org/files/10401/Cubic_Bezier_Curves_with_grid.png)
+
+<sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Paths </sub>
