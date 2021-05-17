@@ -7,6 +7,8 @@ Path는 SVG에서 가장 많이 사용하고 가장 강력한 엘리먼트입니
 
 ## 직선
 
+### M 좌표 이동
+
 선 명령어는 두 점 사이를 잇는 역할을 합니다.<br>
 M(Move to) 명령어로 시작할 위치를 지정합니다.
 
@@ -16,7 +18,10 @@ M(Move to) 명령어로 시작할 위치를 지정합니다.
 <path d="M10 10"/>
 ```
 
-<br>
+<br><br>
+
+### L 선 그리기
+
 
 L(Line to) 명령어로 좌표를 찍고 선을 그립니다.
 
@@ -59,7 +64,7 @@ C(Cubic) 영령어를 사용합니다.
 
 ### C 곡선
 
-> **C x1 y1, x2 y2, x y** : 제어 좌표1, 제어 좌표1, 곡선의 끝 좌
+> **C x1 y1, x2 y2, x y** : 제어 좌표1, 제어 좌표1, 곡선의 끝 좌표
 
 ```html
 <svg width="190" height="160" xmlns="http://www.w3.org/2000/svg">
@@ -75,7 +80,6 @@ C(Cubic) 영령어를 사용합니다.
 </svg>
 ```
 
-아래와 같은 결과가 나옵니다.
 
 ![path](https://mdn.mozillademos.org/files/10401/Cubic_Bezier_Curves_with_grid.png)
 
