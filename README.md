@@ -9,4 +9,5 @@ SVG 학습내용을 정리합니다. <br>
 
 1. [SVG?](https://github.com/yonghap/SVG/blob/main/posts/grid.md)
 2. [기본 도형 (Shape)](https://github.com/yonghap/SVG/blob/main/posts/shape.md)
-3. [패스 (Path)](https://github.com/yonghap/SVG/blob/main/posts/path.md)
+3. [패스 - 직선,곡선,호 (Path,Line,Curve,Arc)](https://github.com/yonghap/SVG/blob/main/posts/path.md)
+4. [채우기와 테두리 (Fills and Strokes)](https://github.com/yonghap/SVG/blob/main/posts/path.md)

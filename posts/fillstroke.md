@@ -1,0 +1,1 @@
+# 채우기와 테두리 (Fills and Strokes)

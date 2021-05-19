@@ -1,4 +1,4 @@
-# Shape
+# 도형 (Shape)
 
 SVG의 기본 도형입니다.
 
