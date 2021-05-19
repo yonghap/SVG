@@ -2,7 +2,7 @@
 
 SVG의 기본 도형입니다.
 
-<br><br>
+<br>
 
 ```html
 <svg width="200" height="250" version="1.0">
@@ -28,7 +28,8 @@ SVG의 기본 도형입니다.
 
 <sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Basic_Shapes </sub>
 
-<br><br>
+<br>
+
 ## Rect
 
 > **x** : 사각형 좌측 상단의 x값 <br>
@@ -38,7 +39,8 @@ SVG의 기본 도형입니다.
 > **rx** : x 방향 모서리의 반지름 <br>
 > **ry** : y 방향 모서리의 반지름 <br>
 
-<br><br>
+<br>
+
 ## Circle
 
 > **rx** : x 방향 반지름의 길이 <br>
@@ -46,7 +48,8 @@ SVG의 기본 도형입니다.
 > **cx** : 원의 중심 x값 <br>
 > **cy** : 원의 중심 y값 <br>
 
-<br><br>
+<br>
+
 ## Line
 
 > **x1** : 점 1의 x값 <br>
@@ -54,13 +57,15 @@ SVG의 기본 도형입니다.
 > **x2** : 점 2의 x값 <br>
 > **y2** : 점 2의 y값 <br>
 
-<br><br>
+<br>
+
 ## Polyline
 
 > **x1 y1, x2 y2, x3 y3...** : 좌표들
 
 Polyline은 선이 길어질 수 있으므로 속성 하나에 모든 좌표를 표시합니다.
-<br><br>
+
+<br>
 
 ## Polygon
 
@@ -68,7 +73,8 @@ Polyline은 선이 길어질 수 있으므로 속성 하나에 모든 좌표를 
 
 Polygon은 처음 좌표와 마지막 좌표를 이어 도형을 만듭니다.
 
-<br><br>
+<br>
+
 ## Path
 
 Path는 SVG에서 사용하는 가장 일반적인 속성이며 Polygon처럼 단일 속성으로 표시합니다. <br>
