@@ -60,7 +60,7 @@ SVG의 곡선 명령어에는 3가지가 있습니다.<br>
 3차 베지어 곡선은 두 개의 제어 좌표와 하나의 끝점을 가집니다.<br>
 C(Cubic) 영령어를 사용합니다.
 
-<br><br>
+<br>
 
 ### C 곡선
 
@@ -85,7 +85,7 @@ C(Cubic) 영령어를 사용합니다.
 
 <sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Paths </sub>
 
-<br><br>
+<br>
 
 ### S 곡선
 
@@ -107,7 +107,7 @@ S 명령어를 사용합니다.
 C 명령어까지는 일반적인 곡선 그리기와 같습니다.<br>
 파란색 좌표는 생략된 좌표이며, C 명령어에서 사용했던 65 10 좌표를 뒤집은 것으로 간주되었습니다.
 
-<br><br>
+<br>
 
 ### Q 곡선
 
@@ -158,7 +158,7 @@ M10 315를 시작점으로 110, 215 좌표로 선을 긋습니다. <br>
 
 <sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Paths </sub>
 
-<br><br>
+<br>
 
 ```html
 <svg width="325" height="325" xmlns="http://www.w3.org/2000/svg">
