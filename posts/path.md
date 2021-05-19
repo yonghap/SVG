@@ -5,7 +5,7 @@ Path는 SVG에서 가장 많이 사용하고 가장 강력한 엘리먼트입니
 
 <br><br>
 
-## 직선
+## 1. 직선
 
 ### M 좌표 이동
 
@@ -53,7 +53,7 @@ Z(Close Path) 명령어로 패스를 닫습니다.<br>
 
 <br><br>
 
-## 곡선
+## 2. 곡선
 
 SVG의 곡선 명령어에는 3가지가 있습니다.<br>
 베지어 곡선 2종류와 호를 활용한 곡선 1종류 입니다.<br><br>
@@ -125,3 +125,61 @@ C 명령어까지는 일반적인 곡선 그리기와 같습니다.<br>
 ![path](https://mdn.mozillademos.org/files/10403/Quadratic_Bezier_with_grid.png)
 
 <sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Paths </sub>
+
+<br><br>
+
+## 3. 원호
+
+다른 형태의 곡선으로 원호가 있습니다. <br>
+타원이나 원의 일부분입니다. <br>
+A(arc) 명령어를 사용합니다.
+
+> **A rx ry x축-회전각 큰-호-플래그 쓸기-방향-플래그 x y** <br>
+> **a rx ry x축-회전각 큰-호-플래그 쓸기-방향-플래그 dx dy**
+
+```html
+<svg width="320" height="320" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10 315
+            L 110 215
+            A 30 50 0 0 1 162.55 162.45
+            L 172.55 152.45
+            A 30 50 -45 0 1 215.1 109.9
+            L 315 10" stroke="black" fill="green" stroke-width="2" fill-opacity="0.5"/>
+</svg>
+```
+
+M10 315를 시작점으로 110, 215 좌표로 선을 긋습니다. <br>
+그 다음 30, 50의 크기를 가진 호를 그립니다. <br>
+0 0 1 좌표에서 x축 회전각은 0입니다. <br>
+호를 회전시키지 않고 그대로 유지합니다. <br>
+두 번째호 x축 회전각은 -45 0 1 이므로 45도 회전시킨 호가 그려집니다.
+
+![arc](https://mdn.mozillademos.org/files/10409/SVGArcs_XAxisRotation_with_grid.png)
+
+<sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Paths </sub>
+
+<br><br>
+
+```html
+<svg width="325" height="325" xmlns="http://www.w3.org/2000/svg">
+    <path d="M80 80
+            A 45 45, 0, 0, 0, 125 125
+            L 125 80 Z" fill="green"/>
+    <path d="M230 80
+            A 45 45, 0, 1, 0, 275 125
+            L 275 80 Z" fill="red"/>
+    <path d="M80 230
+            A 45 45, 0, 0, 1, 125 275
+            L 125 230 Z" fill="purple"/>
+    <path d="M230 230
+            A 45 45, 0, 1, 1, 275 275
+            L 275 230 Z" fill="blue"/>
+</svg>
+```
+
+![arc](https://developer.mozilla.org/@api/deki/files/345/=SVGArcs_Flags.png)
+
+<sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Paths </sub>
+
+위 예제는 네 가지 가능한 조합을 각 사례별로 두 개의 원과 함께 표시하고 있습니다. <br>
+마지막 두 개의 매개변수는 호가 끝나는 x와 y 좌표를 지정합니다.
