@@ -1,6 +1,6 @@
 # 그라디언트 (Gradients)
 
-그라이언트의 종류에는 선형과 방사형이 있습니다.
+그라이언트의 종류에는 선형과 방사형이 있습니다. <br>
 그라이언트는 모양을 정의하는 것이 아닌 재사용성을 위해 defs에 섹션에 따로 정의 합니다.
 
 <br><br>
@@ -136,3 +136,89 @@
 ![gradient](https://developer.mozilla.org/files/728/SVG_SpreadMethod_Example.png)
 
 <sub>* https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Gradients</sub>
+
+<br>
+
+## gradientunits
+
+그라디언트가 표시될 좌표를 정의합니다.
+
+### gradientUnits="objectBoundingBox"
+
+```html
+<svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient gradientUnits="objectBoundingBox" id="myid" x1="0%" x2="100%" y1="0%" y2="0%">
+            <stop/>
+            <stop offset="50%" stop-color="red"/>
+            <stop offset="100%" stop-color="blue"/>
+        </linearGradient>
+    </defs>
+    <circle cx="0%" cy="0%" fill="url(#myid)" r="50vh"/>
+    <circle cx="50%" cy="50%" fill="url(#myid)" r="50vh"/>
+    <circle cx="100%" cy="100%" fill="url(#myid)" r="50vh"/>
+</svg>
+```
+
+![gradient](https://user-images.githubusercontent.com/7742074/120206917-bd1a4400-c266-11eb-815c-7cc890140375.jpg)
+
+```html
+<svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <radialGradient cx="50%" cy="50%" fr="0%" fx="50%" fy="50%" gradientUnits="objectBoundingBox" id="myid" r="50%">
+            <stop/>
+            <stop offset="50%" stop-color="red"/>
+            <stop offset="100%" stop-color="blue"/>
+        </radialGradient>
+    </defs>
+    <circle cx="0%" cy="0%" fill="url(#myid)" r="50vh"/>
+    <circle cx="50%" cy="50%" fill="url(#myid)" r="50vh"/>
+    <circle cx="100%" cy="100%" fill="url(#myid)" r="50vh"/>
+</svg>
+```
+
+![gradient](https://user-images.githubusercontent.com/7742074/120206911-bbe91700-c266-11eb-9689-d2c2cb491c36.jpg)
+
+<br>
+
+### gradientUnits="userSpaceOnUse"
+
+```html
+<svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient gradientUnits="userSpaceOnUse" id="myid" x1="0%" x2="100%" y1="0%" y2="0%">
+            <stop/>
+            <stop offset="50%" stop-color="red"/>
+            <stop offset="100%" stop-color="blue"/>
+        </linearGradient>
+    </defs>
+    <circle cx="0%" cy="0%" fill="url(#myid)" r="50vh"/>
+    <circle cx="50%" cy="50%" fill="url(#myid)" r="50vh"/>
+    <circle cx="100%" cy="100%" fill="url(#myid)" r="50vh"/>
+</svg>
+```
+
+![gradient](https://user-images.githubusercontent.com/7742074/120206921-bd1a4400-c266-11eb-9eed-2331ada6a99b.jpg)
+
+
+
+```html
+<svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <radialGradient cx="50%" cy="50%" fr="0%" fx="50%" fy="50%" gradientUnits="userSpaceOnUse" id="myid" r="50%">
+            <stop/>
+            <stop offset="50%" stop-color="red"/>
+            <stop offset="100%" stop-color="blue"/>
+        </radialGradient>
+    </defs>
+    <circle cx="0%" cy="0%" fill="url(#myid)" r="50vh"/>
+    <circle cx="50%" cy="50%" fill="url(#myid)" r="50vh"/>
+    <circle cx="100%" cy="100%" fill="url(#myid)" r="50vh"/>
+</svg>
+```
+
+![gradient](https://user-images.githubusercontent.com/7742074/120206915-bc81ad80-c266-11eb-9eae-260deb605ca8.jpg)
+
+<sub>* https://osbo.com/svg/attributes/gradientunits/</sub>
+
+<br>
