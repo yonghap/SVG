@@ -40,3 +40,7 @@ x,y 속성을 통해 절대 위치와 dx,dy 속성을 통해 상대 위치를 �
     </textPath>
 </text>
 ```
+
+[13](https://user-images.githubusercontent.com/7742074/120821790-bbb38900-c590-11eb-84bc-44228f636e5d.JPEG)
+
+<sub>* https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts </sub>
