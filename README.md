@@ -14,3 +14,4 @@ SVG 학습내용을 정리합니다. <br>
 5. [그라디언트 (Gradients)](https://github.com/yonghap/SVG/blob/main/posts/gradients.md)
 6. [패턴 (Patterns)](https://github.com/yonghap/SVG/blob/main/posts/patterns.md)
 7. [텍스트 (Texts)](https://github.com/yonghap/SVG/blob/main/posts/texts.md)
+8. [기본 변형 (Basic Transformations)](https://github.com/yonghap/SVG/blob/main/posts/transform.md)
