@@ -26,7 +26,7 @@ SVG의 기본 도형입니다.
 ```
 ![shape](https://developer.mozilla.org/@api/deki/files/359/=Shapes.png)
 
-<sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Basic_Shapes </sub>
+
 
 <br>
 
@@ -79,3 +79,5 @@ Polygon은 처음 좌표와 마지막 좌표를 이어 도형을 만듭니다.
 
 Path는 SVG에서 사용하는 가장 일반적인 속성이며 Polygon처럼 단일 속성으로 표시합니다. <br>
 여러가지 복잡한 도형을 그릴 수 있습니다.
+
+<sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Basic_Shapes </sub>

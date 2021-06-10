@@ -83,7 +83,6 @@ C(Cubic) 영령어를 사용합니다.
 
 ![path](https://mdn.mozillademos.org/files/10401/Cubic_Bezier_Curves_with_grid.png)
 
-<sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Paths </sub>
 
 <br>
 
@@ -102,7 +101,6 @@ S 명령어를 사용합니다.
 
 ![path](https://mdn.mozillademos.org/files/10405/ShortCut_Cubic_Bezier_with_grid.png)
 
-<sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Paths </sub>
 
 C 명령어까지는 일반적인 곡선 그리기와 같습니다.<br>
 파란색 좌표는 생략된 좌표이며, C 명령어에서 사용했던 65 10 좌표를 뒤집은 것으로 간주되었습니다.
@@ -124,7 +122,6 @@ C 명령어까지는 일반적인 곡선 그리기와 같습니다.<br>
 
 ![path](https://mdn.mozillademos.org/files/10403/Quadratic_Bezier_with_grid.png)
 
-<sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Paths </sub>
 
 <br><br>
 
@@ -156,7 +153,6 @@ M10 315를 시작점으로 110, 215 좌표로 선을 긋습니다. <br>
 
 ![arc](https://mdn.mozillademos.org/files/10409/SVGArcs_XAxisRotation_with_grid.png)
 
-<sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Paths </sub>
 
 <br>
 
@@ -183,3 +179,5 @@ M10 315를 시작점으로 110, 215 좌표로 선을 긋습니다. <br>
 
 위 예제는 네 가지 가능한 조합을 각 사례별로 두 개의 원과 함께 표시하고 있습니다. <br>
 마지막 두 개의 매개변수는 호가 끝나는 x와 y 좌표를 지정합니다.
+
+<sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Paths </sub>

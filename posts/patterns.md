@@ -5,7 +5,7 @@ SVG뿐만 아니라 다양한 그래픽 툴에서도 사용합니다. <br>
 그라디언트와 마찬가지로 defs 섹션에 따로 정의합니다.
 
 
-<br><br>
+<br>
 
 ```html
 <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -32,7 +32,6 @@ SVG뿐만 아니라 다양한 그래픽 툴에서도 사용합니다. <br>
 
 ![gradient](https://developer.mozilla.org/files/725/SVG_Pattern_Example.png)
 
-<sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Patterns</sub>
 
 <br>
 
@@ -96,6 +95,8 @@ SVG뿐만 아니라 다양한 그래픽 툴에서도 사용합니다. <br>
 ```
 
 ![gradient](http://i.stack.imgur.com/k2t7Z.png)
+
+<sub>* https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial/Patterns</sub>
 
 <sub>* https://riptutorial.com/svg/example/19858/pattern-coverage-with-combinations-of-patternunits-and-patterncontentunits</sub>
 

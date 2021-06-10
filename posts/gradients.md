@@ -34,7 +34,6 @@
 
 ![gradient](https://developer.mozilla.org/files/722/SVG_Linear_Gradient_Example.png)
 
-<sub>* https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Gradients</sub>
 
 <br>
 
@@ -60,7 +59,6 @@
 
 ![gradient](https://developer.mozilla.org/files/726/SVG_Radial_Gradient_Example.png)
 
-<sub>* https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Gradients</sub>
 
 <br>
 
@@ -92,7 +90,6 @@
 
 ![gradient](https://developer.mozilla.org/files/727/SVG_Radial_Grandient_Focus_Example.png)
 
-<sub>* https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Gradients</sub>
 
 <br>
 
@@ -135,7 +132,6 @@
 
 ![gradient](https://developer.mozilla.org/files/728/SVG_SpreadMethod_Example.png)
 
-<sub>* https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Gradients</sub>
 
 <br>
 
@@ -220,5 +216,3 @@
 ![gradient](https://user-images.githubusercontent.com/7742074/120206915-bc81ad80-c266-11eb-9eae-260deb605ca8.jpg)
 
 <sub>* https://osbo.com/svg/attributes/gradientunits/</sub>
-
-<br>
