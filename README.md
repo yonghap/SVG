@@ -17,3 +17,4 @@ SVG 학습내용을 정리합니다. <br>
 8. [기본 변형 (Basic Transformations)](https://github.com/yonghap/SVG/blob/main/posts/transform.md)
 9. [클리핑과 마스크 (Clipping and Masking)](https://github.com/yonghap/SVG/blob/main/posts/clipping_masking.md)
 10. [SVG 콘텐츠 (Content)](https://github.com/yonghap/SVG/blob/main/posts/content.md)
+11. [필터 효과 (Filter Effect)](https://github.com/yonghap/SVG/blob/main/posts/filter.md)
