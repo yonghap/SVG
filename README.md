@@ -20,3 +20,8 @@ SVG 학습내용을 정리합니다. <br>
 9. [클리핑과 마스크 (Clipping and Masking)](https://github.com/yonghap/SVG/blob/main/posts/clipping_masking.md)
 10. [SVG 콘텐츠 (Content)](https://github.com/yonghap/SVG/blob/main/posts/content.md)
 11. [필터 효과 (Filter Effect)](https://github.com/yonghap/SVG/blob/main/posts/filter.md)
+
+<br>
+
+## :sparkles: SVG Animation
+1. [기본 직선 애니메이션 (Path Animation)](https://github.com/yonghap/SVG/blob/main/posts/animation_1.md)

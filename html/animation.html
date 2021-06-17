@@ -6,10 +6,49 @@
 	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>01</title>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 <body>
-<svg width="1000" height="500">
-	<path d="M10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80" stroke="black" fill="transparent"/>
+<!--<svg width="1000" height="500" id="test">-->
+<!--	<path style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" d="M193.952,72.806h17.34V45.059h-6.935-->
+<!--				c-2.314,0-3.469-1.156-3.469-3.47c0-2.312,1.154-3.469,3.469-3.469h10.405c2.312,0,3.468,1.156,3.468,3.469v34.684-->
+<!--				c0,2.313-1.156,3.47-3.468,3.47h-20.811c-4.801,0-8.89-1.69-12.27-5.072c-3.382-3.38-5.072-7.471-5.072-12.27V27.717-->
+<!--				c0-4.801,1.69-8.89,5.072-12.271c3.38-3.382,7.469-5.072,12.27-5.072h20.811c2.312,0,3.468,1.156,3.468,3.468-->
+<!--				c0,2.314-1.156,3.47-3.468,3.47h-20.811c-2.909,0-5.369,1.016-7.384,3.047c-2.015,2.032-3.022,4.484-3.022,7.357V62.4-->
+<!--				c0,2.908,1.008,5.368,3.022,7.382C188.583,71.797,191.043,72.806,193.952,72.806z"/>-->
+<!--</svg>-->
+<svg width="300" height="300" id="line">
+	<path d="M10 10 L 290 290" stroke="black" stroke-width="5"></path>
 </svg>
+<script>
+	setInterval(function () {
+		(function ($) {
+			var line = $('#line').find('path')[0];
+			var lineLength = line.getTotalLength();
+
+			line.style.strokeDasharray = lineLength; // 점선 형태로 모양 찍기
+			line.style.strokeDashoffset = lineLength; // 시작점 지정
+
+			$('path').animate({
+				'strokeDashoffset': 0
+			}, 1000);
+
+		})(jQuery);
+	},1800);
+
+
+	// (function($){
+	// 	var pathes = $('#test').find('path');
+	// 	pathes.each(function( i, path ) {
+	// 		var total_length = path.getTotalLength();
+	// 		path.style.strokeDasharray = total_length + " " + total_length;
+	// 		path.style.strokeDasharray = total_length;
+	// 		path.style.strokeDashoffset = total_length;
+	// 		$(path).animate({
+	// 			"strokeDashoffset" : 0
+	// 		}, 1500);
+	// 	});
+	// })(jQuery);
+</script>
 </body>
 </html>
