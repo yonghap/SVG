@@ -60,6 +60,39 @@ animate문의 실행되면 시작점이 0 위치로 애니메이션 됩니다.
 
 <br>
 
+## 글자 예제
+
+```html
+<svg width="1000" height="500" id="test">
+	<path style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" d="M193.952,72.806h17.34V45.059h-6.935
+				c-2.314,0-3.469-1.156-3.469-3.47c0-2.312,1.154-3.469,3.469-3.469h10.405c2.312,0,3.468,1.156,3.468,3.469v34.684
+				c0,2.313-1.156,3.47-3.468,3.47h-20.811c-4.801,0-8.89-1.69-12.27-5.072c-3.382-3.38-5.072-7.471-5.072-12.27V27.717
+				c0-4.801,1.69-8.89,5.072-12.271c3.38-3.382,7.469-5.072,12.27-5.072h20.811c2.312,0,3.468,1.156,3.468,3.468
+				c0,2.314-1.156,3.47-3.468,3.47h-20.811c-2.909,0-5.369,1.016-7.384,3.047c-2.015,2.032-3.022,4.484-3.022,7.357V62.4
+				c0,2.908,1.008,5.368,3.022,7.382C188.583,71.797,191.043,72.806,193.952,72.806z"/>
+</svg>
+```
+
+```javascript
+(function ($) {
+    var pathes = $('#test').find('path');
+    pathes.each(function (i, path) {
+        var total_length = path.getTotalLength();
+        path.style.strokeDasharray = total_length + " " + total_length;
+        path.style.strokeDashoffset = total_length;
+        $(path).animate({
+            "strokeDashoffset": 0
+        }, 1500);
+    });
+})(jQuery);
+```
+![1](https://user-images.githubusercontent.com/7742074/123112908-1433c300-d479-11eb-8218-5eaeb034e94f.gif)
+
+
+일러스트를 통해 문자를 그리고 SVG 형태로 소스를 뽑았습니다.<br>
+그런 뒤 이전에 햇던 stroke 속성들을 적용하여 글자가 그려지는 이펙트를 그렸습니다.
+
+
 ### 애니메이션 라이브러리
 
 <a target="_blank" href="https://github.com/juliangarnier/anime">Anime.js</a><br>
