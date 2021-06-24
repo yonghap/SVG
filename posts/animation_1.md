@@ -92,6 +92,73 @@ animate문의 실행되면 시작점이 0 위치로 애니메이션 됩니다.
 일러스트를 통해 문자를 그리고 SVG 형태로 소스를 뽑았습니다.<br>
 그런 뒤 이전에 햇던 stroke 속성들을 적용하여 글자가 그려지는 이펙트를 그렸습니다.
 
+<br>
+
+## 버튼 예제
+
+```html
+<div class="svg-wrapper">
+	<svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+		<rect class="shape" height="60" width="320" />
+	</svg>
+	<div class="text">HOVER</div>
+</div>
+```
+
+```css
+		html, body {
+			background: #333;
+			height: 100%;
+			overflow: hidden;
+			text-align: center;
+		}
+		.svg-wrapper {
+			height: 60px;
+			margin: 0 auto;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 320px;
+		}
+		.shape {
+			fill: transparent;
+			stroke-dasharray: 140 540;
+			stroke-dashoffset: -474;
+			stroke-width: 8px;
+			stroke: #19f6e8;
+		}
+		.text {
+			color: #fff;
+			font-family: 'Roboto Condensed';
+			font-size: 22px;
+			letter-spacing: 8px;
+			line-height: 32px;
+			position: relative;
+			top: -48px;
+		}
+		@keyframes draw {
+			0% {
+				stroke-dasharray: 140 540;
+				stroke-dashoffset: -474;
+				stroke-width: 8px;
+			}
+			100% {
+				stroke-dasharray: 760;
+				stroke-dashoffset: 0;
+				stroke-width: 2px;
+			}
+		}
+		.svg-wrapper:hover .shape {
+			-webkit-animation: 0.5s draw linear forwards;
+			animation: 0.5s draw linear forwards;
+		}
+```
+
+![1](https://user-images.githubusercontent.com/7742074/123282997-ec5e6100-d545-11eb-84d9-cb839a39a014.gif)
+
+글자 애니메이션과 마찬가지로 stroke 속성을 활용하여 <br>
+버튼의 테두리에 효과를 줄 수 있습니다.
+
 
 ### 애니메이션 라이브러리
 
